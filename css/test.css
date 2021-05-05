@@ -130,8 +130,13 @@ right: 300px;
 
 #footer{
     color: white !important;
+    position: relative;
+    top: -200px;
 }
-
+#foter{
+    position: relative;
+    top: -150px;
+}
 #head{
     width: 300px;
     margin-left: 80px ;
