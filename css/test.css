@@ -1,6 +1,18 @@
 body{
     background-color: rgb(211, 211, 202);
 }
+
+/* Nav */
+
+.navbar-brand{
+    margin-left: 420px !important;
+}
+.navbar-brand,.nav-link{
+    padding-left: 50px !important;
+}
+
+
+/* Header */
 .header{
     background-image: url(../images/4.jpg) !important;
     background-size: cover;
@@ -74,6 +86,9 @@ margin: 2% 4%;
 position: relative;
 top: 100px;
 }
+.pic1:hover{
+    border: 5px solid rgb(0, 0, 255) !important;
+}
 .pic2{
     width: 300px;
     height: 170px;
@@ -82,6 +97,10 @@ top: 100px;
     position: relative;
 top: 120px;
 }
+.pic2:hover{
+    border: 5px solid rgb(0, 0, 255) !important;
+
+}
 .pic3{
     width: 300px;
     height: 170px;
@@ -89,6 +108,10 @@ top: 120px;
 left: 250px;
 height: 150px;
 top:80px;
+}
+.pic3:hover{
+    border: 5px solid rgb(0, 0, 255) !important;
+
 }
 .page{
     float: left !important;
@@ -100,29 +123,23 @@ top:80px;
 
 .heading5{
 position: relative;
-top: -600px !important;
+top: -330px !important;
 font-size: 45px;
-right: 300px;
+right: 30px;
+text-transform: uppercase;
+text-align: center;
 /* color: rgb(3, 3, 247);     */
 }
 
 .slide-type{
     position: relative;
-    top: -550px;
-    left: 400px;
-    width: 600px;
+    top: -260px;
+margin: auto;
+    /* left: 200px; */
+    width: 700px;
     text-align: left;
     font-size: 170%;
     /* color: ; */
-}
-.first{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    position: relative;
-    top: -595px;
-    left: 240px;
-    border: 2px solid white;
 }
 
 
@@ -130,16 +147,20 @@ right: 300px;
 
 #footer{
     color: white !important;
-    position: relative;
-    top: -200px;
+ 
 }
-#foter{
-    position: relative;
-    top: -150px;
-}
+
 #head{
+    
     width: 300px;
-    margin-left: 80px ;
+    margin-left: 70px ;
+}
+.jungle-pic{
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+    border-radius: 100%;
+margin-right: 90px;
 }
 
 #info{
